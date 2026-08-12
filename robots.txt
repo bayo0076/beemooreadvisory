@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_partials/
+
+Sitemap: https://beemooreadvisory.com/sitemap.xml

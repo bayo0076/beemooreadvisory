@@ -1,0 +1,82 @@
+{
+  "_comment": "Digital products. 'checkout_url' is deliberately storefront-agnostic — point it at Payhip, Selar, Gumroad, Stripe Payment Links or anything else. If checkout_url is empty the button falls back to the enquiry form with the product pre-selected, so nothing ever links to a dead checkout. Set 'available': false to grey a product out as 'in preparation'.",
+  "updated": "2026-08-11",
+  "products": [
+    {
+      "id": "cheat-sheet",
+      "title": "The Nigeria Investment Cheat Sheet",
+      "cover_line": "The Nigeria\nInvestment\nCheat Sheet",
+      "description": "Five pages, one topic each: the mid-2026 macro snapshot, the six numbers to know before committing capital, the setup sequence in the correct order, the five mistakes that trap foreign money, and where to verify every figure yourself.",
+      "price": "Free",
+      "price_note": "email required",
+      "format": "PDF · 5 pages",
+      "badge": "Free",
+      "badge_style": "gold",
+      "available": true,
+      "checkout_url": "",
+      "cta": "Get the cheat sheet"
+    },
+    {
+      "id": "market-signals",
+      "title": "Nigeria Market Signals",
+      "cover_line": "Nigeria\nMarket Signals",
+      "description": "A monthly investor briefing: the ten developments moving foreign capital in Nigeria, each decoded into what it actually changes for an entry, expansion or exit decision. Sourced to primary agencies throughout.",
+      "price": "$14",
+      "price_note": "per issue",
+      "format": "PDF · monthly",
+      "available": true,
+      "checkout_url": "",
+      "cta": "Enquire"
+    },
+    {
+      "id": "entry-playbook",
+      "title": "Nigeria Market Entry Playbook 2026",
+      "cover_line": "Nigeria\nMarket Entry\nPlaybook 2026",
+      "description": "The full legal, FX and tax sequence with a 90-day roadmap — incorporation, NIPC registration, business permit, banking and eCCI, sector licensing and tax registration, in order and with the traps marked.",
+      "price": "$39",
+      "price_note": "one-off",
+      "format": "PDF · full guide",
+      "badge": "Most requested",
+      "badge_style": "green",
+      "available": true,
+      "checkout_url": "",
+      "cta": "Enquire"
+    },
+    {
+      "id": "lagos-east-map",
+      "title": "Lagos East Opportunity Map 2026",
+      "cover_line": "Lagos East\nOpportunity Map\n2026",
+      "description": "A ground-level read on the Epe Division corridor — infrastructure, land, marine and tourism opportunity in the part of Lagos where the state's physical expansion is actually happening.",
+      "price": "Enquire",
+      "price_note": "for pricing",
+      "format": "PDF · regional brief",
+      "available": true,
+      "checkout_url": "",
+      "cta": "Enquire"
+    },
+    {
+      "id": "banking-deep-dive",
+      "title": "Nigeria Banking Sector Deep Dive",
+      "cover_line": "Banking\nSector\nDeep Dive",
+      "description": "Recapitalisation, licensing tiers and what the current banking landscape means for a foreign entrant choosing where to hold naira and dollar accounts — and which banks actually handle eCCI competently.",
+      "price": "Enquire",
+      "price_note": "for pricing",
+      "format": "PDF · sector brief",
+      "available": true,
+      "checkout_url": "",
+      "cta": "Enquire"
+    },
+    {
+      "id": "bespoke-brief",
+      "title": "Bespoke Sector Brief",
+      "cover_line": "Bespoke\nSector Brief",
+      "description": "Commissioned research on your specific sector and business model: the regulator, the capital floor, the incumbents, realistic cost and timeline, and the risks attached to what you actually intend to do.",
+      "price": "Scoped",
+      "price_note": "after a free call",
+      "format": "Written brief",
+      "available": true,
+      "checkout_url": "",
+      "cta": "Discuss a brief"
+    }
+  ]
+}

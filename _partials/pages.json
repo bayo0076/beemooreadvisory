@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "index.html",
+    "body": "index.html",
+    "title": "Bee Moore Advisory | Nigeria & West Africa Market Entry",
+    "description": "We help foreign companies enter Nigeria and West Africa, and connect global buyers with vetted Nigerian suppliers. Founder-led from Lagos.",
+    "keywords": "Nigeria market entry consultant, Nigeria business consultant, Nigeria FDI advisory, Nigeria due diligence company, Nigeria supplier verification, West Africa market entry, Africa investment advisory, Nigeria export consultant, Nigeria market intelligence, Bee Moore Advisory, Adebayo Olawunmi",
+    "og_title": "Bee Moore Advisory | Enter Nigeria the right way",
+    "og_description": "Market intelligence, due diligence, market-entry execution and trade facilitation from Lagos.",
+    "changefreq": "weekly",
+    "priority": "1.0",
+    "scripts": [
+      "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+      "/js/globe.js",
+      "/js/signals.js",
+      "/js/deals.js",
+      "/js/opportunities.js",
+      "/js/content.js",
+      "/js/forms.js"
+    ],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://beemooreadvisory.com/#organization",
+        "name": "Bee Moore Advisory",
+        "alternateName": "Bee-Moore Advisory",
+        "url": "https://beemooreadvisory.com",
+        "logo": "https://beemooreadvisory.com/assets/icons/favicon.svg",
+        "image": "https://beemooreadvisory.com/assets/images/og-image.png",
+        "description": "Lagos-based advisory and business development firm helping international companies, investors, buyers and diaspora founders understand, enter and operate in Nigeria and the wider West African market.",
+        "slogan": "Enter Nigeria the right way.",
+        "areaServed": [
+          "Nigeria",
+          "West Africa",
+          "United States",
+          "United Kingdom",
+          "Spain",
+          "United Arab Emirates"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lagos",
+          "addressCountry": "NG"
+        },
+        "telephone": "+234-901-500-6151",
+        "email": "bayo.olawunmi@gmail.com",
+        "priceRange": "$$",
+        "founder": {
+          "@id": "https://beemooreadvisory.com/about.html#person"
+        },
+        "knowsAbout": [
+          "Foreign direct investment",
+          "Market entry strategy",
+          "Commercial due diligence",
+          "Supplier verification",
+          "Trade facilitation",
+          "Stakeholder mapping",
+          "Blue economy and marine advisory",
+          "Tourism and hospitality advisory",
+          "Government and public sector navigation"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Advisory services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Partner & Company Due Diligence"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Market Entry — Done For You"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Strategic Advisory & Retainers"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Deal & Partner Facilitation and Export Execution"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://beemooreadvisory.com",
+        "name": "Bee Moore Advisory",
+        "publisher": {
+          "@id": "https://beemooreadvisory.com/#organization"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "services.html",
+    "body": "services.html",
+    "title": "Services | Nigeria Due Diligence & Market Entry Advisory",
+    "description": "Partner and company due diligence, done-for-you Nigeria market entry, strategic advisory retainers, and deal facilitation with export execution.",
+    "keywords": "Nigeria due diligence company, Nigeria supplier verification, Nigeria market entry consultant, Nigeria company verification, Nigeria business partner verification, Nigeria export consultant, FDI advisory Nigeria",
+    "og_title": "Services | Bee Moore Advisory",
+    "og_description": "Due diligence, market entry, advisory retainers and deal facilitation for Nigeria and West Africa.",
+    "changefreq": "monthly",
+    "priority": "0.9",
+    "scripts": [
+      "/js/forms.js"
+    ],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://beemooreadvisory.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://beemooreadvisory.com/services.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "deal-room.html",
+    "body": "deal-room.html",
+    "title": "Deal Room | Nigeria Trade, FDI & Investment Structures",
+    "description": "Illustrative deal structures across trade, FDI, market entry, public sector, partnerships, blue economy and tourism, plus the opportunity radar.",
+    "keywords": "Nigeria investment opportunities, Nigeria export deals, Nigeria trade opportunities, Nigeria FDI opportunities, Nigeria acquisition opportunities, Nigeria blue economy consultant",
+    "og_title": "Deal Room | Bee Moore Advisory",
+    "og_description": "Illustrative, executable deal structures across trade, investment and market entry in Nigeria.",
+    "changefreq": "weekly",
+    "priority": "0.9",
+    "scripts": [
+      "/js/deals.js",
+      "/js/opportunities.js",
+      "/js/forms.js"
+    ]
+  },
+  {
+    "slug": "insights.html",
+    "body": "insights.html",
+    "title": "Insights | Nigeria Market Intelligence for Investors",
+    "description": "Regulatory, tax and capital-flow developments that change the calculation for foreign capital in Nigeria, decoded from primary sources.",
+    "keywords": "Nigeria market intelligence, Nigeria investment news, Nigeria Tax Act 2025, eCCI Nigeria, NIPC registration, Nigeria FDI 2026, profit repatriation Nigeria",
+    "og_title": "Insights | Nigeria Market Intelligence",
+    "og_description": "What is actually changing for foreign capital in Nigeria, decoded from primary sources.",
+    "changefreq": "weekly",
+    "priority": "0.9",
+    "scripts": [
+      "/js/signals.js",
+      "/js/content.js",
+      "/js/forms.js"
+    ]
+  },
+  {
+    "slug": "tools.html",
+    "body": "tools.html",
+    "title": "Nigeria Market Entry Cost Calculator & eCCI Explainer",
+    "description": "Free tools: an indicative Nigeria market-entry cost and timeline calculator, and a step-by-step guide to capital importation and profit repatriation.",
+    "keywords": "Nigeria market entry cost, Nigeria company registration cost, Nigeria share capital requirement, eCCI Nigeria, profit repatriation Nigeria, Nigeria capital importation",
+    "og_title": "Market Entry Tools | Bee Moore Advisory",
+    "og_description": "Indicative cost and timeline calculator, plus a plain-English eCCI and repatriation explainer.",
+    "changefreq": "monthly",
+    "priority": "0.8",
+    "scripts": [
+      "/js/calculators.js",
+      "/js/forms.js"
+    ]
+  },
+  {
+    "slug": "resources.html",
+    "body": "resources.html",
+    "title": "Reports & Resources | Nigeria Investment Intelligence",
+    "description": "The free Nigeria Investment Cheat Sheet, Market Signals monthly briefing, the Market Entry Playbook 2026 and bespoke sector briefs.",
+    "keywords": "Nigeria investment guide, Nigeria market entry playbook, Nigeria investment cheat sheet, Lagos opportunity map, Nigeria market signals briefing",
+    "og_title": "Reports & Resources | Bee Moore Advisory",
+    "og_description": "Free and paid intelligence products for investors entering Nigeria. Start with the free cheat sheet.",
+    "changefreq": "monthly",
+    "priority": "0.8",
+    "scripts": [
+      "/js/content.js",
+      "/js/forms.js"
+    ]
+  },
+  {
+    "slug": "clients.html",
+    "body": "clients.html",
+    "title": "Clients & Engagements | Bee Moore Advisory Nigeria",
+    "description": "Organisations we have worked with, and honest walkthroughs of how a Nigeria market-entry, due diligence or trade facilitation engagement runs.",
+    "keywords": "Bee Moore Advisory clients, Nigeria consulting case studies, Nigeria market entry engagement",
+    "og_title": "Clients & Engagements | Bee Moore Advisory",
+    "og_description": "Who we work with, and how an engagement runs from first call to execution.",
+    "changefreq": "monthly",
+    "priority": "0.7",
+    "scripts": [
+      "/js/forms.js"
+    ]
+  },
+  {
+    "slug": "about.html",
+    "body": "about.html",
+    "title": "About the Founder | Adebayo Olawunmi, Bee Moore Advisory",
+    "description": "Adebayo Olawunmi founded Bee Moore Advisory after sixteen years covering Nigerian business and policy. On-the-ground intelligence, not desk research.",
+    "keywords": "Adebayo Olawunmi, Bee Moore Advisory founder, Nigeria business consultant, Nigeria FDI facilitator, Lagos market entry adviser, Nigeria trade consultant",
+    "og_type": "profile",
+    "og_title": "About the Founder | Adebayo Olawunmi",
+    "og_description": "Sixteen years covering Nigerian business and policy, now applied to helping international clients operate in the market.",
+    "changefreq": "monthly",
+    "priority": "0.8",
+    "scripts": [
+      "/js/forms.js"
+    ],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://beemooreadvisory.com/about.html#person",
+        "name": "Adebayo Olawunmi",
+        "alternateName": "Bayo Olawunmi",
+        "jobTitle": "Founder & Chief Executive",
+        "description": "Lagos-based market-entry adviser, FDI facilitator and international trade consultant with over sixteen years covering Nigerian business, policy and the economy.",
+        "worksFor": {
+          "@id": "https://beemooreadvisory.com/#organization"
+        },
+        "url": "https://beemooreadvisory.com/about.html",
+        "email": "bayo.olawunmi@gmail.com",
+        "telephone": "+234-901-500-6151",
+        "sameAs": [
+          "https://www.linkedin.com/in/adebayo-olawunmi-1381258a/",
+          "https://substack.com/@naijainteldesk"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lagos",
+          "addressCountry": "NG"
+        },
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Lagos"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "University of California, Los Angeles"
+          }
+        ],
+        "knowsLanguage": [
+          "English",
+          "Yoruba"
+        ],
+        "knowsAbout": [
+          "Nigeria market entry",
+          "Foreign direct investment",
+          "Commercial due diligence",
+          "International trade",
+          "Blue economy",
+          "Tourism development"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "contact.html",
+    "body": "contact.html",
+    "title": "Contact | Book a Nigeria Market Entry Consultation",
+    "description": "Book a free 30-minute orientation call with Bee Moore Advisory in Lagos. Submit a deal, request due diligence, or message us on WhatsApp.",
+    "keywords": "Nigeria market entry consultation, contact Nigeria business consultant, Nigeria due diligence request, submit deal Nigeria",
+    "og_title": "Contact | Bee Moore Advisory",
+    "og_description": "Book a free 30-minute orientation call. Lagos, Nigeria — working worldwide.",
+    "changefreq": "monthly",
+    "priority": "0.9",
+    "scripts": [
+      "/js/forms.js"
+    ],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "url": "https://beemooreadvisory.com/contact.html",
+        "mainEntity": {
+          "@id": "https://beemooreadvisory.com/#organization"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "404.html",
+    "body": "404.html",
+    "title": "Page not found | Bee Moore Advisory",
+    "description": "That page could not be found. Jump to services, the deal room, market entry tools or contact.",
+    "robots": "noindex, follow",
+    "scripts": []
+  }
+]

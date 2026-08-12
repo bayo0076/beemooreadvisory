@@ -1,0 +1,107 @@
+{
+  "_comment": "AUTOMATION TARGET. Your daily LinkedIn/Substack pipeline can append to 'items' — newest first. 'url' should point at the live post; leave it empty and the card renders without a link rather than 404-ing. Types: linkedin | substack | brief | carousel | video. Every item needs a 'source' when it states a figure.",
+  "updated": "2026-08-11",
+  "data_status": "live",
+  "items": [
+    {
+      "id": "post-2026-08-10",
+      "type": "linkedin",
+      "topic": "FDI",
+      "title": "UNCTAD's World Investment Report and what it misses about Nigeria",
+      "excerpt": "Headline FDI numbers move on a handful of large transactions. The more useful question for an operator is what share of inflow is patient capital competing for real assets — and on that measure Nigeria is still early.",
+      "date": "2026-08-10",
+      "url": "https://www.linkedin.com/in/adebayo-olawunmi-1381258a/recent-activity/all/",
+      "tags": ["FDI", "Capital flows", "Strategic advisory"]
+    },
+    {
+      "id": "post-2026-08-09",
+      "type": "linkedin",
+      "topic": "Capital flows",
+      "title": "Portfolio money is not foreign direct investment",
+      "excerpt": "Q1 2026 capital importation was up 84% year-on-year, and roughly 95% of it was portfolio flow. Those two facts get reported as one story. They mean very different things if you are building something physical.",
+      "date": "2026-08-09",
+      "url": "https://www.linkedin.com/in/adebayo-olawunmi-1381258a/recent-activity/all/",
+      "tags": ["FDI", "Deal facilitation"]
+    },
+    {
+      "id": "post-2026-08-08",
+      "type": "linkedin",
+      "topic": "Market entry",
+      "title": "What the CBN business survey actually tells a market entrant",
+      "excerpt": "Sentiment surveys are a weak basis for a capital decision on their own — but read against inventory and credit conditions, they tell you whether local buyers can currently pay.",
+      "date": "2026-08-08",
+      "url": "https://www.linkedin.com/in/adebayo-olawunmi-1381258a/recent-activity/all/",
+      "tags": ["Market entry", "Nigeria Market Signals"]
+    },
+    {
+      "id": "post-2026-08-07",
+      "type": "linkedin",
+      "topic": "Due diligence",
+      "title": "CAC Section 304 and the letterhead problem",
+      "excerpt": "Company letterhead in Nigeria is now required to carry specific statutory detail. It sounds like housekeeping. In practice it is a free first-pass authenticity check on any counterparty document you are sent.",
+      "date": "2026-08-07",
+      "url": "https://www.linkedin.com/in/adebayo-olawunmi-1381258a/recent-activity/all/",
+      "tags": ["Due diligence", "Verification"]
+    },
+    {
+      "id": "post-2026-08-04",
+      "type": "linkedin",
+      "topic": "Tax",
+      "title": "Virtual-asset tax guidelines and the wider signal",
+      "excerpt": "The Nigeria Revenue Service moving on digital-asset guidance matters less for crypto than for what it says about enforcement capacity generally under the new tax regime.",
+      "date": "2026-08-04",
+      "url": "https://www.linkedin.com/in/adebayo-olawunmi-1381258a/recent-activity/all/",
+      "tags": ["Tax", "Market entry"]
+    },
+    {
+      "id": "post-2026-07-28",
+      "type": "carousel",
+      "topic": "Capital markets",
+      "title": "The NGX topped Africa in dollar terms — and the index door is still shut",
+      "excerpt": "Strong dollar returns on the exchange have not translated into index inclusion. For a portfolio allocator that gap is the entire story; for a direct investor it is a signal about liquidity depth.",
+      "date": "2026-07-28",
+      "url": "",
+      "tags": ["Capital markets", "FDI"]
+    },
+    {
+      "id": "post-2026-07-25",
+      "type": "carousel",
+      "topic": "Market entry",
+      "title": "Nigeria is more open than you think",
+      "excerpt": "100% foreign ownership is permitted in most sectors, and no local partner is legally required. The constraints that actually bind are capital thresholds and documentation, not ownership rules.",
+      "date": "2026-07-25",
+      "url": "",
+      "tags": ["Market entry", "Ownership"]
+    },
+    {
+      "id": "post-2026-07-24",
+      "type": "carousel",
+      "topic": "Due diligence",
+      "title": "Five mistakes that trap foreign money in Nigeria",
+      "excerpt": "Importing capital without an eCCI. Under-capitalising below ₦100m. Budgeting for a Pioneer holiday that no longer exists. Tripping the management-and-control test. Using informal FX channels for speed.",
+      "date": "2026-07-24",
+      "url": "",
+      "tags": ["Due diligence", "Profit repatriation", "Market entry"]
+    },
+    {
+      "id": "post-2026-07-23",
+      "type": "brief",
+      "topic": "Nigeria Market Signals",
+      "title": "Nigeria Market Signals — July 2026",
+      "excerpt": "The month's developments that change the calculation for foreign capital: FX convergence holding, the new tax regime bedding in, and the incentive landscape after Pioneer status.",
+      "date": "2026-07-23",
+      "url": "https://substack.com/@naijainteldesk",
+      "tags": ["Nigeria Market Signals", "FDI", "Tax"]
+    },
+    {
+      "id": "post-2026-07-22",
+      "type": "substack",
+      "topic": "Market entry",
+      "title": "The Nigeria Investment Cheat Sheet",
+      "excerpt": "Five pages: the mid-2026 macro snapshot, the six numbers to know before committing, the setup sequence in the right order, the five mistakes that trap foreign money, and where to verify all of it.",
+      "date": "2026-07-22",
+      "url": "https://substack.com/@naijainteldesk",
+      "tags": ["Market entry", "Business opportunities"]
+    }
+  ]
+}

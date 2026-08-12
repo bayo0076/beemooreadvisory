@@ -1,0 +1,76 @@
+{
+  "_comment": "AUTOMATION TARGET — READ THIS BEFORE LAUNCH. The entries below are SAMPLE STRUCTURE ONLY. They are not real enquiries. While data_status is 'sample' the site displays a prominent amber warning above the radar and every row is stamped SAMPLE. Do one of two things before you go live: (a) replace 'items' with genuine anonymised enquiries you have actually received and set data_status to 'live', or (b) set \"enabled\": false to hide the whole section. Publishing fabricated buyer demand as real deal flow would be the single fastest way to lose a serious client's trust.",
+  "enabled": true,
+  "data_status": "sample",
+  "updated": "2026-08-11",
+  "sample_warning": "Sample data — illustrating the format only. These are not live enquiries.",
+  "live_note": "Anonymised summaries of enquiries received by Bee Moore Advisory. Counterparty identities are never published.",
+  "items": [
+    {
+      "id": "opp-001",
+      "type": "Buyer demand",
+      "region": "Middle East",
+      "sector": "Agricultural commodities",
+      "headline": "Importer seeking African-origin sesame on recurring contract",
+      "requirement": "Consistent 98/2 spec, staged volume, pre-shipment inspection required",
+      "status": "open",
+      "source_class": "Direct enquiry",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "opp-002",
+      "type": "Buyer demand",
+      "region": "North America",
+      "sector": "Natural cosmetics",
+      "headline": "Skincare manufacturer exploring West African shea supply",
+      "requirement": "Grade A unrefined, traceable to cooperative level, sample lot first",
+      "status": "open",
+      "source_class": "Direct enquiry",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "opp-003",
+      "type": "Market entry",
+      "region": "Europe",
+      "sector": "Industrial equipment",
+      "headline": "Manufacturer evaluating Nigerian distribution partner",
+      "requirement": "Distributor with existing industrial client base and service capability",
+      "status": "in-progress",
+      "source_class": "Direct enquiry",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "opp-004",
+      "type": "Due diligence",
+      "region": "Europe",
+      "sector": "Logistics",
+      "headline": "Investor requesting verification of a proposed Lagos counterparty",
+      "requirement": "Ownership, operational capacity and reputational check ahead of contracting",
+      "status": "in-progress",
+      "source_class": "Referral",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "opp-005",
+      "type": "Supplier side",
+      "region": "Nigeria",
+      "sector": "Processed food",
+      "headline": "Nigerian processor seeking qualified international buyers",
+      "requirement": "Export-ready capacity, certification in place, seeking offtake",
+      "status": "open",
+      "source_class": "Direct enquiry",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "opp-006",
+      "type": "Investment",
+      "region": "Diaspora",
+      "sector": "Real estate",
+      "headline": "Diaspora investor seeking title verification before land purchase",
+      "requirement": "Chain of title, Certificate of Occupancy status, physical site confirmation",
+      "status": "open",
+      "source_class": "Direct enquiry",
+      "date": "2026-08-06"
+    }
+  ]
+}

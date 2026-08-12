@@ -1,0 +1,182 @@
+{
+  "_comment": "AUTOMATION TARGET. Every entry here is an ILLUSTRATIVE DEAL STRUCTURE, not a completed transaction. The renderer stamps that disclaimer on every card automatically — do not remove it. IMPORTANT: the indicative values below are structural placeholders, NOT sourced market prices. Set price_status to 'sourced' and populate price_source/price_as_of only once a real quote or exchange reference is attached. While price_status is 'placeholder' the site shows an amber warning banner above the grid.",
+  "updated": "2026-08-11",
+  "price_status": "placeholder",
+  "disclaimer": "Illustrative example based on live market conditions — an executable deal structure, not a completed transaction.",
+  "value_disclaimer": "Indicative — subject to verification.",
+  "categories": [
+    { "id": "all",           "label": "All" },
+    { "id": "trade",         "label": "Trade & Export" },
+    { "id": "fdi",           "label": "FDI" },
+    { "id": "market-entry",  "label": "Market Entry" },
+    { "id": "public-sector", "label": "Public Sector" },
+    { "id": "partnerships",  "label": "Partnerships" },
+    { "id": "acquisitions",  "label": "Acquisitions" },
+    { "id": "blue-economy",  "label": "Blue Economy" },
+    { "id": "tourism",       "label": "Tourism" }
+  ],
+  "deals": [
+    {
+      "id": "shea-eu",
+      "category": "trade",
+      "ref": "BMA/TR/001",
+      "title": "Unrefined shea butter — Nigeria to European cosmetics manufacturer",
+      "summary": "Northern Nigeria produces shea at scale but most volume leaves through intermediaries. A structure that reaches cooperative-level supply improves both traceability and margin.",
+      "specs": [
+        { "label": "Commodity",       "value": "Grade A unrefined shea butter" },
+        { "label": "Supply side",     "value": "Cooperative aggregators, Niger & Kwara States" },
+        { "label": "Buyer profile",   "value": "EU natural-cosmetics manufacturer" },
+        { "label": "Indicative volume", "value": "2 × 20ft containers / quarter" },
+        { "label": "Bee Moore role",  "value": "Supplier identification, capability verification, sample coordination, export documentation, shipment oversight" },
+        { "label": "Fee basis",       "value": "Success fee on shipped value, or fixed sourcing retainer" }
+      ]
+    },
+    {
+      "id": "sesame-gulf",
+      "category": "trade",
+      "ref": "BMA/TR/002",
+      "title": "Sesame seed — Nigeria to Gulf commodity importer",
+      "summary": "Sesame is one of Nigeria's most consistent non-oil exports. The recurring failure point is not supply — it is quality consistency across lots and counterparty reliability at scale.",
+      "specs": [
+        { "label": "Commodity",       "value": "Whitish sesame seed, 98/2 spec" },
+        { "label": "Supply side",     "value": "Aggregators, Benue & Jigawa States" },
+        { "label": "Buyer profile",   "value": "Gulf-region importer / re-exporter" },
+        { "label": "Indicative volume", "value": "500 MT, staged across contracts" },
+        { "label": "Bee Moore role",  "value": "Aggregator verification, pre-shipment quality protocol, SGS coordination, documentation" },
+        { "label": "Fee basis",       "value": "Success fee on executed volume" }
+      ]
+    },
+    {
+      "id": "cashew-asia",
+      "category": "trade",
+      "ref": "BMA/TR/003",
+      "title": "Raw cashew nut — Nigeria to Asian processor",
+      "summary": "Season timing governs everything in cashew. Buyers who commit before verifying warehouse position and outturn quality carry most of the risk in the chain.",
+      "specs": [
+        { "label": "Commodity",       "value": "Raw cashew nut, outturn-graded" },
+        { "label": "Supply side",     "value": "Kogi, Oyo and Enugu warehousing" },
+        { "label": "Buyer profile",   "value": "Asian shelling and processing operation" },
+        { "label": "Indicative volume", "value": "Container-load contracts, seasonal" },
+        { "label": "Bee Moore role",  "value": "Warehouse inspection, outturn verification, seller diligence, loading supervision" },
+        { "label": "Fee basis",       "value": "Success fee, or per-inspection fixed fee" }
+      ]
+    },
+    {
+      "id": "fmcg-entry",
+      "category": "market-entry",
+      "ref": "BMA/ME/004",
+      "title": "Consumer goods manufacturer — export-first Nigeria entry",
+      "summary": "The reflex is to incorporate immediately. With a ₦100m share-capital floor for any company with foreign participation, that is usually the expensive path before volume justifies it.",
+      "specs": [
+        { "label": "Client profile",  "value": "Mid-sized international consumer-goods producer" },
+        { "label": "Question",        "value": "Export through a distributor, or incorporate and operate locally?" },
+        { "label": "Sequence",        "value": "Regulator identification → NAFDAC pathway → distributor shortlist → export trial → incorporation at proven volume" },
+        { "label": "Capital note",    "value": "₦100m minimum share capital applies from the first day of any foreign shareholding" },
+        { "label": "Bee Moore role",  "value": "Entry-route modelling, regulator mapping, distributor search and verification, launch support" },
+        { "label": "Indicative timeline", "value": "60–90 days to first commercial shipment" }
+      ]
+    },
+    {
+      "id": "agro-processing-fdi",
+      "category": "fdi",
+      "ref": "BMA/FD/005",
+      "title": "Agro-processing facility — greenfield FDI with local partner",
+      "summary": "Nigeria exports raw and imports processed. Processing capacity sited near the growing region captures the spread — provided the power and offtake assumptions are tested rather than assumed.",
+      "specs": [
+        { "label": "Sector",          "value": "Agro-processing / value addition" },
+        { "label": "Location",        "value": "Southwest or North-Central, sited to feedstock" },
+        { "label": "Structure",       "value": "100% foreign ownership permitted; local operating partner optional but usually decisive" },
+        { "label": "Regulatory",      "value": "CAC incorporation → NIPC registration → business permit → NAFDAC where applicable" },
+        { "label": "Incentive note",  "value": "Pioneer status ended in 2025. Model the performance-based EDTI (5% annual credit on qualifying capex for five years) instead" },
+        { "label": "Bee Moore role",  "value": "Feasibility intelligence, site and feedstock verification, partner search, regulatory sequencing, government liaison" }
+      ]
+    },
+    {
+      "id": "freezone-logistics",
+      "category": "fdi",
+      "ref": "BMA/FD/006",
+      "title": "Free-zone logistics and light assembly operation",
+      "summary": "NEPZA free zones offer a materially different tax and customs position for export-oriented operations — but only if the business model genuinely fits the zone's terms.",
+      "specs": [
+        { "label": "Sector",          "value": "Logistics, warehousing, light assembly" },
+        { "label": "Structure",       "value": "NEPZA free-zone enterprise" },
+        { "label": "Indicative minimum", "value": "US $500,000 investment (indicative NEPZA threshold)" },
+        { "label": "Trade-off",       "value": "Tax and customs advantages against restrictions on selling into the domestic customs territory" },
+        { "label": "Bee Moore role",  "value": "Zone comparison, eligibility assessment, NEPZA liaison, operator introductions" },
+        { "label": "Honest caveat",   "value": "Free-zone status suits export-led models. If the plan is to sell domestically, it is usually the wrong structure" }
+      ]
+    },
+    {
+      "id": "marine-ferry",
+      "category": "blue-economy",
+      "ref": "BMA/BE/007",
+      "title": "Lagos waterways passenger transport — equipment supply and operating partnership",
+      "summary": "Lagos is a lagoon city with chronic road congestion and an under-built water-transport network. State policy has favoured expansion; the commercial gap is vessels, jetty infrastructure and operator capability.",
+      "specs": [
+        { "label": "Sector",          "value": "Marine passenger transport, jetty and waterfront infrastructure" },
+        { "label": "Opportunity",     "value": "Vessel supply, safety systems, terminal development, operator partnership" },
+        { "label": "Counterparties",  "value": "Private operators and state waterway authorities" },
+        { "label": "Key diligence",   "value": "Route licensing, vessel certification, safety compliance, realistic ridership" },
+        { "label": "Bee Moore role",  "value": "Sector intelligence, operator identification and verification, stakeholder mapping, partnership structuring" },
+        { "label": "Honest caveat",   "value": "Advisory and commercial facilitation. Bee Moore is not a marine engineering or vessel-operating company" }
+      ]
+    },
+    {
+      "id": "tourism-waterfront",
+      "category": "tourism",
+      "ref": "BMA/TO/008",
+      "title": "Waterfront leisure and hospitality development — Lagos East corridor",
+      "summary": "The Epe and Lekki corridor is where Lagos physically expands. Land and waterfront positions there price differently from the island, and the leisure market is materially under-served.",
+      "specs": [
+        { "label": "Sector",          "value": "Hospitality, leisure, destination development" },
+        { "label": "Location",        "value": "Lagos East / Epe Division corridor" },
+        { "label": "Opportunity",     "value": "Waterfront leisure assets, tour product development, hospitality partnership" },
+        { "label": "Critical diligence", "value": "Land title chain, Certificate of Occupancy, community consent, access infrastructure" },
+        { "label": "Bee Moore role",  "value": "Corridor intelligence, title-chain verification support, local partner identification, community and state stakeholder navigation" },
+        { "label": "Honest caveat",   "value": "Land title is the single largest risk in Nigerian real estate. Verify before any payment, without exception" }
+      ]
+    },
+    {
+      "id": "public-sector-supply",
+      "category": "public-sector",
+      "ref": "BMA/PS/009",
+      "title": "Public-sector supply and infrastructure — opportunity intelligence",
+      "summary": "Federal and state procurement is a genuine market that foreign firms routinely misread — usually by underestimating registration requirements and payment timelines.",
+      "specs": [
+        { "label": "Scope",           "value": "Tender and opportunity intelligence, eligibility assessment, local partnering" },
+        { "label": "Typical route",   "value": "BPP registration, local entity or JV partner, prequalification, bid support" },
+        { "label": "Bee Moore role",  "value": "Opportunity monitoring, eligibility mapping, local partner identification, lawful stakeholder engagement" },
+        { "label": "Payment reality", "value": "Public-sector payment cycles can be long. Model working capital accordingly" },
+        { "label": "Hard limit",      "value": "Bee Moore does not offer, imply or facilitate influence over contract awards, and does not represent any government body" }
+      ]
+    },
+    {
+      "id": "creative-partnership",
+      "category": "partnerships",
+      "ref": "BMA/PA/010",
+      "title": "Entertainment and creative industry — market access partnership",
+      "summary": "Nigerian music, film and creator output travels globally; the commercial infrastructure around it is uneven. Foreign entrants need rights clarity before capital, not after.",
+      "specs": [
+        { "label": "Sector",          "value": "Music, film, events, creator economy" },
+        { "label": "Opportunity",     "value": "Distribution partnership, sponsorship, production JV, market access" },
+        { "label": "Key diligence",   "value": "Rights ownership and chain of title, existing contractual encumbrances, revenue verification" },
+        { "label": "Bee Moore role",  "value": "Sector intelligence, counterparty verification, introductions, commercial structuring, communications" },
+        { "label": "Honest caveat",   "value": "Advisory capability and active area of interest. Not a claim of completed transactions in this sector" }
+      ]
+    },
+    {
+      "id": "smb-acquisition",
+      "category": "acquisitions",
+      "ref": "BMA/AQ/011",
+      "title": "Established Nigerian SME — acquisition or majority stake",
+      "summary": "Buying an operating business avoids the cold-start problem, but Nigerian SME financials are frequently informal. Verified cash generation, not the stated P&L, is what you are actually buying.",
+      "specs": [
+        { "label": "Target profile",  "value": "Owner-managed operating business with genuine market position" },
+        { "label": "Sectors",         "value": "Distribution, light manufacturing, logistics, services" },
+        { "label": "Critical diligence", "value": "Bank-statement reconciliation against stated revenue, CAC filings, tax position, asset title, undisclosed liabilities, key-person dependency" },
+        { "label": "Bee Moore role",  "value": "Target identification, approach, commercial and reputational diligence, negotiation support" },
+        { "label": "Honest caveat",   "value": "Legal and financial due diligence is performed by qualified professionals. Bee Moore coordinates and provides commercial and reputational intelligence" }
+      ]
+    }
+  ]
+}

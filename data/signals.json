@@ -1,0 +1,89 @@
+{
+  "_comment": "AUTOMATION TARGET. Overwrite this whole file from your scheduled research job. Keep the shape identical. Rules: (1) every signal MUST carry source, source_url and as_of. (2) Set data_status to 'verified' only when a human has checked the figure against the primary source. (3) Bump 'updated' on every write. The widget refuses to render any signal missing a source.",
+  "updated": "2026-07-22",
+  "data_status": "verified",
+  "verified_by": "Adebayo Olawunmi",
+  "disclaimer": "Static snapshot, not a live feed. Nigerian macro data moves; verify against the primary source before making commercial decisions.",
+  "signals": [
+    {
+      "id": "usdngn",
+      "name": "USD / NGN",
+      "value": "₦1,375",
+      "direction": "flat",
+      "note": "Broadly stable in a ₦1,350–1,380 band since the 2023–24 reforms. Official and parallel rates now near-identical — the convergence matters more than the level, because it is what makes a repatriation plan modellable.",
+      "source": "Central Bank of Nigeria",
+      "source_url": "https://www.cbn.gov.ng",
+      "as_of": "July 2026"
+    },
+    {
+      "id": "reserves",
+      "name": "External reserves",
+      "value": "~$52bn",
+      "direction": "up",
+      "note": "Reserve cover is the buffer behind FX stability. Watch this before you commit to a naira-denominated cost base.",
+      "source": "Central Bank of Nigeria",
+      "source_url": "https://www.cbn.gov.ng",
+      "as_of": "July 2026"
+    },
+    {
+      "id": "inflation",
+      "name": "Headline inflation",
+      "value": "15.91%",
+      "direction": "down",
+      "note": "Down from 25.29% a year earlier — but part of that fall reflects the NBS 2024-base CPI rebasing rather than genuine cooling. Treat the direction as real and the magnitude as partly technical when building pricing assumptions.",
+      "source": "National Bureau of Statistics",
+      "source_url": "https://www.nigerianstat.gov.ng",
+      "as_of": "June 2026"
+    },
+    {
+      "id": "mpr",
+      "name": "Monetary policy rate",
+      "value": "26.5%",
+      "direction": "flat",
+      "note": "Money is deliberately tight. Local-currency debt is expensive — fund through equity or properly documented offshore and shareholder loans instead.",
+      "source": "Central Bank of Nigeria",
+      "source_url": "https://www.cbn.gov.ng",
+      "as_of": "July 2026"
+    },
+    {
+      "id": "gdp",
+      "name": "Real GDP growth",
+      "value": "+3.89%",
+      "direction": "up",
+      "note": "Year-on-year, Q1 2026. Accelerating and services-led rather than oil-led, which is the more durable pattern.",
+      "source": "National Bureau of Statistics",
+      "source_url": "https://www.nigerianstat.gov.ng",
+      "as_of": "Q1 2026"
+    },
+    {
+      "id": "capital-importation",
+      "name": "Capital imported",
+      "value": "$10.37bn",
+      "direction": "up",
+      "note": "Q1 2026, up 84% year-on-year. Hot money has returned decisively.",
+      "source": "National Bureau of Statistics",
+      "source_url": "https://www.nigerianstat.gov.ng",
+      "as_of": "Q1 2026"
+    },
+    {
+      "id": "fdi-share",
+      "name": "FDI share of inflows",
+      "value": "1.3%",
+      "direction": "flat",
+      "note": "95% of Q1 2026 inflows were portfolio money. Patient capital competing for real operating assets is still thin on the ground — which, for a direct investor, is the opportunity.",
+      "source": "National Bureau of Statistics",
+      "source_url": "https://www.nigerianstat.gov.ng",
+      "as_of": "Q1 2026"
+    },
+    {
+      "id": "share-capital",
+      "name": "Foreign-participation capital floor",
+      "value": "₦100m",
+      "direction": "flat",
+      "note": "Minimum share capital for any company with foreign participation — even 1%. The binding constraint on most foreign entrants, and the reason premature incorporation is expensive.",
+      "source": "Corporate Affairs Commission / NIPC Act",
+      "source_url": "https://www.nipc.gov.ng",
+      "as_of": "2026"
+    }
+  ]
+}

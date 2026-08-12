@@ -1,0 +1,226 @@
+<section class="page-head">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">Home</a> / Market Entry Tools</div>
+    <span class="eyebrow">Free Tools</span>
+    <h1>Work out what entry costs before you call anyone</h1>
+    <p class="lede">
+      Two things stop most Nigeria plans: the capital floor nobody costed, and the certificate
+      nobody collected. These tools deal with both, in about four minutes.
+    </p>
+  </div>
+</section>
+
+<!-- =================== CALCULATOR =================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Tool 01</span>
+      <h2>Market entry cost &amp; timeline calculator</h2>
+      <p>Applies the ₦100m foreign-participation share-capital floor and the 0.75% stamp duty
+         to your own numbers, and sketches a 90-day roadmap.</p>
+    </div>
+
+    <div class="tool-wrap reveal" id="entry-calc">
+      <div class="tool-head">
+        <h3>Your entry, costed</h3>
+        <span class="badge badge-amber">Indicative only</span>
+      </div>
+
+      <div class="tool-grid">
+        <div class="tool-inputs">
+          <div class="field">
+            <label for="calc-sector">Sector</label>
+            <select id="calc-sector">
+              <option>General trading / distribution</option>
+              <option>Manufacturing</option>
+              <option>Agriculture &amp; agro-processing</option>
+              <option>Import / export</option>
+              <option>Logistics &amp; warehousing</option>
+              <option>Real estate &amp; construction</option>
+              <option>Technology &amp; software</option>
+              <option>Energy</option>
+              <option>Marine &amp; blue economy</option>
+              <option>Tourism &amp; hospitality</option>
+              <option>Media &amp; creative</option>
+              <option>Financial services</option>
+            </select>
+          </div>
+
+          <div class="field range-wrap">
+            <label for="calc-capital">Capital you intend to commit —
+              <strong id="calc-capital-out" style="color:var(--gold);">$250,000</strong></label>
+            <input type="range" id="calc-capital" min="25000" max="5000000" step="25000" value="250000">
+            <span class="field-hint">Slide from $25,000 to $5,000,000</span>
+          </div>
+
+          <div class="field">
+            <label for="calc-staff">Expected employees in year one</label>
+            <input type="number" id="calc-staff" value="8" min="0" max="5000">
+          </div>
+
+          <div class="switch-row">
+            <div>
+              <label for="calc-foreign" style="font-family:'JetBrains Mono',monospace;font-size:0.63rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);font-weight:600;">Any foreign shareholding</label>
+              <p class="field-hint" style="margin-top:3px;">Even 1% triggers the ₦100m floor</p>
+            </div>
+            <span class="switch" id="calc-foreign" role="switch" aria-checked="true" tabindex="0" aria-labelledby="calc-foreign"></span>
+          </div>
+
+          <div class="switch-row">
+            <div>
+              <label for="calc-regulated" style="font-family:'JetBrains Mono',monospace;font-size:0.63rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);font-weight:600;">Regulated sector</label>
+              <p class="field-hint" style="margin-top:3px;">Banking, insurance, telecoms, oil &amp; gas, capital markets, pharma</p>
+            </div>
+            <span class="switch" id="calc-regulated" role="switch" aria-checked="false" tabindex="0"></span>
+          </div>
+
+          <div class="switch-row">
+            <div>
+              <label for="calc-expat" style="font-family:'JetBrains Mono',monospace;font-size:0.63rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);font-weight:600;">Posting foreign staff</label>
+              <p class="field-hint" style="margin-top:3px;">Requires an expatriate quota</p>
+            </div>
+            <span class="switch" id="calc-expat" role="switch" aria-checked="false" tabindex="0"></span>
+          </div>
+        </div>
+
+        <div class="tool-output">
+          <div class="result-hero" id="calc-timeline"></div>
+          <dl id="calc-rows"></dl>
+          <div id="calc-steps" style="display:grid;gap:2px;"></div>
+          <p class="source-line" id="calc-fx-note"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="data-banner reveal" style="margin-top:22px;">
+      <p><strong>Indicative only. Not legal, investment or tax advice.</strong> The ₦100m
+      foreign-participation share-capital floor and the 0.75% stamp duty on share capital are
+      stable statutory figures. Agency fees, professional fees and sector licence-capital
+      requirements vary widely and are deliberately shown as requirements rather than invented
+      precise numbers. Several regulated sectors carry licence-capital floors well above ₦100m
+      — that figure, not the general floor, governs how much you import. Confirm everything with
+      qualified Nigerian counsel before committing capital.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =================== eCCI EXPLAINER =================== -->
+<section class="section bg-paper" id="ecci">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Tool 02</span>
+      <h2>How money gets in — and back out again</h2>
+      <p>The eCCI is the single most consequential document in Nigerian foreign investment, and
+         the one most often skipped for speed. Step through it.</p>
+    </div>
+
+    <div class="grid-2" style="gap:40px; align-items:start;">
+      <div class="reveal">
+        <div class="tool-wrap" style="padding:30px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px;">
+            <span class="eyebrow">Capital pathway</span>
+            <span style="font-family:'JetBrains Mono',monospace;font-size:0.66rem;color:var(--muted);">
+              Step <span id="ecci-progress">1 of 5</span>
+            </span>
+          </div>
+
+          <div class="stepper" id="ecci-stepper">
+            <div class="step-item">
+              <div class="step-dot">1</div>
+              <div>
+                <h4>Foreign capital leaves your account</h4>
+                <p>Equity, shareholder loan or acquisition consideration. It must travel in the
+                   company's name, through formal banking channels.</p>
+                <div class="step-warn">Using informal FX channels because they are faster or
+                   cheaper is the decision that makes everything downstream unfixable.</div>
+              </div>
+            </div>
+
+            <div class="step-item">
+              <div class="step-dot">2</div>
+              <div>
+                <h4>It arrives at an authorised dealer bank in Nigeria</h4>
+                <p>Not every bank handles capital importation competently. Choosing one with
+                   genuine eCCI experience is worth more than a marginally better FX rate.</p>
+              </div>
+            </div>
+
+            <div class="step-item">
+              <div class="step-dot">3</div>
+              <div>
+                <h4>The bank documents the inflow</h4>
+                <p>Source, purpose, beneficiary company and instrument type are recorded and
+                   reported to the Central Bank.</p>
+              </div>
+            </div>
+
+            <div class="step-item">
+              <div class="step-dot">4</div>
+              <div>
+                <h4>The eCCI is issued — within 24 hours</h4>
+                <p>The electronic Certificate of Capital Importation is your legal proof that
+                   this money entered Nigeria as foreign investment. Collect it on every single
+                   tranche, not just the first.</p>
+                <div class="step-warn">No eCCI, no clean repatriation. This is not always
+                   fixable retroactively, and it is the most common way foreign money becomes
+                   trapped in Nigeria.</div>
+              </div>
+            </div>
+
+            <div class="step-item">
+              <div class="step-dot">5</div>
+              <div>
+                <h4>Profits, dividends and capital can be repatriated</h4>
+                <p>With eCCIs in hand and taxes settled, your bank can source FX and remit
+                   dividends, loan repayments or sale proceeds through official channels at the
+                   prevailing rate.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-outline btn-sm" type="button" id="ecci-reset" style="margin-top:18px;">Reset</button>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="notice">
+          <p><strong>The one-sentence version.</strong> Paperwork at money-in protects money-out.
+          The eCCI is the difference between profits you can repatriate and profits that are
+          stuck in Lagos.</p>
+        </div>
+
+        <div class="notice" style="margin-top:16px;">
+          <p><strong>Where people go wrong.</strong> Capital arrives before the company exists.
+          Or it lands in a director's personal account "to save time". Or the first tranche gets
+          an eCCI and the next four do not. Each of those is recoverable only partially, and
+          only sometimes.</p>
+        </div>
+
+        <div class="notice" style="margin-top:16px;">
+          <p><strong>What we do here.</strong> We introduce you to banks that handle this
+          routinely, sit on the documentation for every tranche, and keep the certificate file
+          complete — so that when you eventually want money out, the answer is a process rather
+          than an argument.</p>
+        </div>
+
+        <div style="display:flex;gap:11px;margin-top:22px;flex-wrap:wrap;">
+          <a href="/contact.html?enquiry=Market%20Entry" class="btn btn-gold">Talk through your structure</a>
+          <a href="/resources.html" class="btn btn-outline">Get the free cheat sheet</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <span class="eyebrow">Next</span>
+    <h2>The calculator gave you a number. Now pressure-test it.</h2>
+    <p>Thirty minutes, no charge. Bring what the tool told you and we will tell you what it
+       missed about your specific sector.</p>
+    <div class="hero-ctas">
+      <a href="/contact.html" class="btn btn-gold btn-lg">Book a Consultation</a>
+      <a href="/services.html" class="btn btn-ghost btn-lg">See our services</a>
+    </div>
+  </div>
+</section>

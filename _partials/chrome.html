@@ -1,0 +1,184 @@
+<!-- ==========================================================
+     SHARED CHROME — edit here, then run:  python3 build.py
+     Sections are delimited by  <!--@NAME-->  markers.
+     ========================================================== -->
+
+<!--@HEAD-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<meta name="keywords" content="{{KEYWORDS}}">
+<meta name="author" content="Bee Moore Advisory">
+<meta name="robots" content="{{ROBOTS}}">
+<link rel="canonical" href="https://beemooreadvisory.com/{{SLUG}}">
+
+<meta property="og:type" content="{{OGTYPE}}">
+<meta property="og:url" content="https://beemooreadvisory.com/{{SLUG}}">
+<meta property="og:site_name" content="Bee Moore Advisory">
+<meta property="og:title" content="{{OGTITLE}}">
+<meta property="og:description" content="{{OGDESC}}">
+<meta property="og:image" content="https://beemooreadvisory.com/assets/images/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_NG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{OGTITLE}}">
+<meta name="twitter:description" content="{{OGDESC}}">
+<meta name="twitter:image" content="https://beemooreadvisory.com/assets/images/og-image.png">
+<meta name="theme-color" content="#071827">
+
+<link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/icons/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+<!--/@HEAD-->
+
+
+<!--@NAV-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="utility-bar">
+  <div class="utility-inner">
+    <div class="utility-left">
+      <span class="utility-loc"><span class="live-dot"></span>Lagos, Nigeria — WAT (UTC+1)</span>
+      <span class="utility-hide">Independent advisory · Founder-led</span>
+    </div>
+    <div class="utility-right">
+      <a class="utility-hide-sm" href="mailto:bayo.olawunmi@gmail.com">bayo.olawunmi@gmail.com</a>
+      <a href="https://wa.me/2349015006151" target="_blank" rel="noopener">WhatsApp +234 901 500 6151</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="brand" aria-label="Bee Moore Advisory — home">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#0F2C4D" stroke-width="1.6" opacity=".55"/>
+        <ellipse cx="20" cy="20" rx="7.5" ry="18" fill="none" stroke="#0F2C4D" stroke-width="1.3" opacity=".4"/>
+        <path d="M2 20h36M5 11h30M5 29h30" stroke="#0F2C4D" stroke-width="1.2" opacity=".35"/>
+        <path d="M21 25 Q30 13 28 6" fill="none" stroke="#B4883B" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="21" cy="25" r="3.2" fill="#B4883B"/>
+        <circle cx="28" cy="6" r="2" fill="#1F6F54"/>
+      </svg>
+      <span class="brand-text">Bee Moore <span>Advisory</span>
+        <span class="brand-sub">Nigeria &amp; West Africa</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/services.html">Services</a>
+      <a href="/deal-room.html">Deal Room</a>
+      <a href="/insights.html">Insights</a>
+      <a href="/resources.html">Resources</a>
+      <a href="/about.html">About</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
+      <a href="/contact.html" class="btn btn-gold btn-sm">Book a Consultation</a>
+      <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Open menu"
+              aria-expanded="false" aria-controls="mobileDrawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile" aria-hidden="true">
+  <button class="drawer-close" id="drawerClose" type="button" aria-label="Close menu">&times;</button>
+  <a href="/">Home</a>
+  <a href="/services.html">Services</a>
+  <a href="/deal-room.html">Deal Room</a>
+  <a href="/insights.html">Insights</a>
+  <a href="/resources.html">Resources</a>
+  <a href="/clients.html">Clients</a>
+  <a href="/about.html">About the Founder</a>
+  <a href="/contact.html">Contact</a>
+  <a href="/contact.html" class="btn btn-gold drawer-cta">Book a Consultation</a>
+</nav>
+<!--/@NAV-->
+
+
+<!--@FOOTER-->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="brand-text" style="font-size:1.15rem;">Bee Moore <span>Advisory</span></span>
+        <p style="margin-top:13px; font-size:0.87rem; max-width:36ch;">
+          Independent market intelligence, due diligence and market-entry execution for
+          international companies operating in Nigeria and West Africa. Founder-led from Lagos.
+        </p>
+        <div style="display:flex; gap:9px; margin-top:18px; flex-wrap:wrap;">
+          <a href="https://wa.me/2349015006151" target="_blank" rel="noopener" class="btn btn-wa btn-sm">WhatsApp</a>
+          <a href="/contact.html" class="btn btn-ghost btn-sm">Book a call</a>
+        </div>
+      </div>
+      <div>
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/deal-room.html">Deal Room</a></li>
+          <li><a href="/clients.html">Clients</a></li>
+          <li><a href="/about.html">About the Founder</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Intelligence</h4>
+        <ul>
+          <li><a href="/insights.html">Insights</a></li>
+          <li><a href="/resources.html">Reports &amp; resources</a></li>
+          <li><a href="/tools.html">Market entry tools</a></li>
+          <li><a href="https://substack.com/@naijainteldesk" target="_blank" rel="noopener">Naija Intel Desk</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:bayo.olawunmi@gmail.com">bayo.olawunmi@gmail.com</a></li>
+          <li><a href="tel:+2349015006151">+234 901 500 6151</a></li>
+          <li><a href="https://wa.me/2349015006151" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://www.linkedin.com/in/adebayo-olawunmi-1381258a/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-disclaimer">
+      <strong>Independent market intelligence and advisory. Not investment, legal, or tax advice.</strong>
+      Bee Moore Advisory is a commercial advisory and business development practice. It is not a law
+      firm, accountancy practice, licensed financial adviser or regulated investment intermediary,
+      and it is not affiliated with, sponsored by, or endorsed by any government agency. We do not
+      guarantee returns, contract awards or market-entry outcomes, and we do not offer or facilitate
+      influence over public-sector decisions. Deal structures shown on this site are illustrative
+      examples, not completed transactions, and all values are indicative and subject to
+      verification. Market data is dated and changes — verify against primary sources and take
+      qualified professional advice before acting.
+    </p>
+
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> Bee Moore Advisory. All rights reserved.</span>
+      <span>Lagos, Nigeria — working worldwide</span>
+    </div>
+  </div>
+</footer>
+
+<div class="float-stack">
+  <a class="float-wa" href="https://wa.me/2349015006151" target="_blank" rel="noopener"
+     aria-label="Message Bee Moore Advisory on WhatsApp">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15s-.77.96-.94 1.16c-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/>
+      <path d="M12 2C6.48 2 2 6.48 2 12c0 1.77.46 3.43 1.27 4.87L2 22l5.25-1.24A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.1c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3.12.74.74-3.04-.2-.32A8.06 8.06 0 013.9 12 8.1 8.1 0 1112 20.1z"/>
+    </svg>
+    <span>WhatsApp</span>
+  </a>
+  <button class="to-top" type="button" aria-label="Back to top">&uarr;</button>
+</div>
+<!--/@FOOTER-->
