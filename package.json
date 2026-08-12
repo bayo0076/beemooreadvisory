@@ -1,12 +1,1 @@
-{
-  "name": "beemooreadvisory",
-  "version": "2.0.0",
-  "private": true,
-  "type": "module",
-  "description": "Bee Moore Advisory — Nigeria & West Africa market entry, due diligence, trade and FDI advisory. Static site with one Vercel serverless function for the enquiry form.",
-  "engines": { "node": ">=18" },
-  "scripts": {
-    "build": "python3 build.py",
-    "dev": "npx serve ."
-  }
-}
+{"name":"beemooreadvisory","version":"1.0.0","private":true}
