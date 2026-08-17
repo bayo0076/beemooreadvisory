@@ -30,7 +30,7 @@ ROOT = pathlib.Path(__file__).parent
 PARTIALS = ROOT / "_partials"
 PAGES_DIR = PARTIALS / "pages"
 
-SITE = "https://beemooreadvisory.com"
+SITE = "https://www.beemooreadvisory.com"
 
 
 def block(text: str, name: str) -> str:

@@ -3,4 +3,4 @@ Allow: /
 Disallow: /api/
 Disallow: /_partials/
 
-Sitemap: https://beemooreadvisory.com/sitemap.xml
+Sitemap: https://www.beemooreadvisory.com/sitemap.xml
