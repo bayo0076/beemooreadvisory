@@ -44,7 +44,7 @@
           "addressCountry": "NG"
         },
         "telephone": "+234-901-500-6151",
-        "email": "bayo.olawunmi@gmail.com",
+        "email": "hello@beemooreadvisory.com",
         "priceRange": "$$",
         "founder": {
           "@id": "https://beemooreadvisory.com/about.html#person"
@@ -243,7 +243,7 @@
           "@id": "https://beemooreadvisory.com/#organization"
         },
         "url": "https://beemooreadvisory.com/about.html",
-        "email": "bayo.olawunmi@gmail.com",
+        "email": "hello@beemooreadvisory.com",
         "telephone": "+234-901-500-6151",
         "sameAs": [
           "https://www.linkedin.com/in/adebayo-olawunmi-1381258a/",

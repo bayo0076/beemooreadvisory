@@ -7,7 +7,7 @@
 (function () {
   'use strict';
 
-  var EMAIL_TO = 'bayo.olawunmi@gmail.com';
+  var EMAIL_TO = 'hello@beemooreadvisory.com';
   var WHATSAPP = 'https://wa.me/2349015006151';
   var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 

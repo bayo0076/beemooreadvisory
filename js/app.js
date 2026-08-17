@@ -181,7 +181,7 @@
       .then(function (r) { if (!r.ok) throw new Error('missing'); })
       .catch(function () {
         cv.setAttribute('href',
-          'mailto:bayo.olawunmi@gmail.com?subject=' +
+          'mailto:hello@beemooreadvisory.com?subject=' +
           encodeURIComponent('CV request — Adebayo Olawunmi'));
         cv.removeAttribute('download');
         cv.textContent = 'Request CV by email';
